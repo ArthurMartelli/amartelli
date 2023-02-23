@@ -4,12 +4,9 @@ import App from "./App.svelte";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import { getPerformance } from "firebase/performance";
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+const firebase_config = {
   apiKey: "AIzaSyAadLLAjggUrRnFEWGTvGY6NQLiDKBmLkM",
   authDomain: "arthur-martelli.firebaseapp.com",
   projectId: "arthur-martelli",
@@ -20,8 +17,9 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const fbapp = initializeApp(firebaseConfig);
-const analytics = getAnalytics(fbapp);
+const firebase_app = initializeApp(firebase_config);
+const perf = getPerformance(firebase_app);
+const analytics = getAnalytics(firebase_app);
 
 const app = new App({
   target: document.getElementById("app"),

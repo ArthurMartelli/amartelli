@@ -12,7 +12,7 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>No mames lucas lo logre</h1>
+  <h1>On dev 🔥</h1>
 
   <div class="card">
     <Counter />
@@ -20,13 +20,11 @@
 
   <p>
     Check out <a
-      href="https://github.com/sveltejs/kit#readme"
+      href="https://github.com/arthurmartelli/amartelli"
       target="_blank"
       rel="noreferrer">SvelteKit</a
-    >, the official Svelte app framework powered by Vite!
+    >, for more information!
   </p>
-
-  <p class="read-the-docs">Click on the Vite and Svelte logos to learn more</p>
 </main>
 
 <style>
