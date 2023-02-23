@@ -1,10 +1,10 @@
 <script lang="ts">
-  let count: number = 1;
+  let count: number = 0;
   const increment = () => {
-    count *= 2;
+    count += 1;
   };
 </script>
 
 <button on:click={increment}>
-  Powers of 2: {count}
+  Count is {count}
 </button>
