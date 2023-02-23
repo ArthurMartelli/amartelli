@@ -12,7 +12,7 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>Website Complete 🔥😎</h1>
+  <h1>Website on development 🔥😎</h1>
 
   <div class="card">
     <Counter />
