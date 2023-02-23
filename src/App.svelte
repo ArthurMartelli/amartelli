@@ -12,18 +12,18 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>On dev 🔥</h1>
+  <h1>On development 🔥</h1>
 
   <div class="card">
     <Counter />
   </div>
 
   <p>
-    Check out <a
+    Check out the <a
       href="https://github.com/arthurmartelli/amartelli"
       target="_blank"
-      rel="noreferrer">SvelteKit</a
-    >, for more information!
+      rel="noreferrer">Github Repo 🤖</a
+    > for more information!
   </p>
 </main>
 
@@ -39,8 +39,5 @@
   }
   .logo.svelte:hover {
     filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
   }
 </style>
