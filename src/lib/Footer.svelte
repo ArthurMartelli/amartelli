@@ -1,0 +1,7 @@
+<p>
+  Check out the <a
+    href="https://github.com/arthurmartelli/amartelli"
+    target="_blank"
+    rel="noreferrer">Github Repo 🤖</a
+  > for more information!
+</p>
