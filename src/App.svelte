@@ -1,43 +1,25 @@
 <script lang="ts">
-  import svelteLogo from "./assets/svelte.svg";
-  import Counter from "./lib/Counter.svelte";
+  import Home from "./lib/Home.svelte";
+  import Footer from "./lib/Footer.svelte";
+  import Contact from "./lib/Contact.svelte";
+  import Projects from "./lib/Projects.svelte";
+  import Navbar from "./lib/Navbar.svelte";
+  import About from "./lib/About.svelte";
 </script>
 
+<Navbar />
+
 <main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src="/vite.svg" class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Website on development 🔥😎</h1>
+  <Home />
 
-  <div class="card">
-    <Counter />
-  </div>
+  <About />
 
-  <p>
-    Check out the <a
-      href="https://github.com/arthurmartelli/amartelli"
-      target="_blank"
-      rel="noreferrer">Github Repo 🤖</a
-    > for more information!
-  </p>
+  <Projects />
+
+  <Contact />
 </main>
 
-<style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
+<Footer />
+
+<style lang="scss">
 </style>
