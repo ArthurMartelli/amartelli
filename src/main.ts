@@ -1,5 +1,7 @@
 import "./app.scss";
 import App from "./App.svelte";
+import Navbar from "./lib/Navbar.svelte";
+import Footer from "./lib/Footer.svelte";
 
 // // Import the functions you need from the SDKs you need
 // import { initializeApp } from "firebase/app";
@@ -23,6 +25,14 @@ import App from "./App.svelte";
 
 const app = new App({
   target: document.getElementById("app"),
+});
+
+const navbar = new Navbar({
+  target: document.getElementById("navbar"),
+});
+
+const footer = new Footer({
+  target: document.getElementById("footer"),
 });
 
 export default app;

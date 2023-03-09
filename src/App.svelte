@@ -1,13 +1,9 @@
 <script lang="ts">
-  import Home from "./lib/Home.svelte";
-  import Footer from "./lib/Footer.svelte";
-  import Contact from "./lib/Contact.svelte";
-  import Projects from "./lib/Projects.svelte";
-  import Navbar from "./lib/Navbar.svelte";
-  import About from "./lib/About.svelte";
+  import Home from "./components/Home.svelte";
+  import About from "./components/About.svelte";
+  import Projects from "./components/Projects.svelte";
+  import Contact from "./components/Contact.svelte";
 </script>
-
-<Navbar />
 
 <main>
   <Home />
@@ -18,8 +14,3 @@
 
   <Contact />
 </main>
-
-<Footer />
-
-<style lang="scss">
-</style>
